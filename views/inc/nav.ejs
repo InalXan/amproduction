@@ -1,58 +1,182 @@
- <!-- Topbar Start -->
- <div class="headeryukarisiamj">
-    <div class="headeryukarisiabu" style="display: flex ; align-items: center;">
-        <div class="col-lg-7 px-5 text-start belibeli">
-            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                <small>Azerbaijan, Baku</small>
-            </div>
-            <div class="h-100 d-inline-flex align-items-center py-3">
-                <small class="far fa-clock text-primary me-2"></small>
-                <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
-            </div>
-        </div>
-        <div class="col-lg-5 px-5 text-end" style="display: flex;align-items: center;">
-            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                <small class="fa fa-phone-alt text-primary me-2"></small>
-                <a href="tel:994557140385"><small>+99455 714 0385</small></a>
-            </div>
-            <div class="h-100 d-inline-flex align-items-center">
-                <a class="btn btn-sm-square bg-white text-primary me-1" href="/"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-sm-square bg-white text-primary me-1" href="https://wa.me/994557140385"><i class="fab fa-whatsapp"></i></a>
-                <a class="btn btn-sm-square bg-white text-primary me-0" href="/"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
+<style> 
+</style>
+    <div class="chat-icon" style="
+        position: fixed;
+        bottom: 20px !important; /* Alt kenardan 20px uzaklık */
+        right: 20px; /* Sağ kenardan 20px uzaklık */
+        width: 40px; /* Genişlik 20px */
+        height: 40px; /* Yükseklik 20px */
+        z-index: 999; /* İkonun diğer elemanlar üzerinde görünme önceliği */
+     ">
+        <!-- Buraya chat ikonunu ekleyebilirsiniz -->
+        <a href="https://wa.me/994557140385"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" style="position: fixed; bottom: 50px; z-index: 10; right: 30px;" alt="" width="50" height="50" class="whats"></a>
     </div>
-</div>
+ <!-- Topbar Start -->
+ <div class="d-flex position-absolute w-100 p-1">
+    <div id="time" class="w-100 d-flex justify-content-start align-items-center">   
+        <ul>
+            <li class="d-flex m-1">
+                <box-icon name='time-five'></box-icon>
+                <a href="">Mon - Fri : 09.00 AM - 09.00 PM</a>
+            </li>
+        </ul>
+    </div>
+    <div id="social" class="d-flex w-100 justify-content-end align-items-center">   
+        <ul class="d-flex">
+            <li class="d-flex m-1">
+                <a href=""><box-icon name='instagram' type='logo' ></box-icon></a>
+            </li>
+            <li class="d-flex m-1">
+                <a href=""><box-icon name='whatsapp' type='logo' ></box-icon></a>
+            </li>
+            <li class="d-flex m-1">
+                <a href=""><box-icon name='facebook' type='logo' ></box-icon></a>
+            </li>
+        </ul>
+    </div>
+ </div>
 <!-- Topbar End -->
+    <!-- Header Start -->
+    <div class="header-section header-sticky-05">
+        <div class="container custom-container-two position-relative">
 
-
-<!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-light sticky-top p-0">
-    <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <img src="./img/logo/logo-4.png" style="width: 200px; height: 70px;" alt="">
-    </a>
-    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0 ">
-            
-            <a href="/" class="text-light nav-item nav-link text-light">Ana Səhifə</a>
-        
-            <a href="/about" class="text-light nav-item text-light nav-link">Haqqımızda</a>
-            
-            <a href="/project" class="text-light nav-item nav-link">Layihə</a>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                <div class="dropdown-menu bg-primary fade-up m-0">
-                    <a href="/feature" class="text-light dropdown-item">Feature</a>
-                    <a href="/order" class="text-light dropdown-item">Sifariş</a>
-                    <a href="/404" class="text-light dropdown-item">404 Page</a>
+            <div class="headertop">
+                <div class="headertop-left">
+                    <ul class="hotline-wrapper">
+                        <li>
+                            <div class="hotline">
+                                <i class="lastudioicon lastudioicon-support248"></i>
+                                <div class="hotline-content">
+                                    <span class="hotline-text">Əlaqə</span>
+                                    <a class="hotline-link" href="tel:994557140385">+994 (55) 714-0385</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="hotline">
+                                <i class="lastudioicon lastudioicon-pin-check"></i>
+                                <div class="hotline-content">
+                                    <span class="hotline-text">Məkan</span>
+                                    <a class="hotline-link" href="https://maps.app.goo.gl">Azərbaycan, Bakı</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="headertop-center">
+                    <!-- Header Logo Start -->
+                    <div class="header-logo">
+                        <a href="/"><img src="https://static.vecteezy.com/system/resources/thumbnails/007/410/276/small/furniture-logo-design-vector.jpg" width="150" alt="Logo"></a>
+                    </div>
+                    <!-- Header Logo End -->
+                </div>
+                <div class="headertop-right">
+                    <!-- Header Meta Start -->
+                    <div class="header-meta">
+                        <ul class="header-meta__action header-meta__action-02 d-flex justify-content-end">
+                            <li class="d-sm-block d-none">
+                                <form action="#" class="search-form">
+                                    <input type="search" class="search-form-field" placeholder="Search Product...">
+                                    <button class="search-form-btn"><i class="lastudioicon-zoom-1"></i></button>
+                                </form>
+                            </li>
+                            <li class="d-block d-sm-none">
+                                <button class="action search-open">
+                                    <i class="lastudioicon-zoom-1"></i>
+                                </button>
+                            </li>
+                            <li><a class="action" href="/admin"><i class="lastudioicon-single-01-2"></i></a></li>
+                            <li class="d-lg-none">
+                                <button class="action" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="lastudioicon-menu-8-1"></i></button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Header Meta End -->
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Header Menu Start -->
+                    <div class="header-menu d-none d-lg-block">
+                        <ul class="header-primary-menu header-primary-menu-05 d-flex justify-content-center">
+                            <li>
+                                <a href="/" class="menu-item-link active"><span>Ana Səhifə</span></a>
+                            </li>
+                            <li class="position-static">
+                                <a class="menu-item-link" href="/category"><span>Category</span></a>
+                        
+                                    </li>
+                            <li><a class="menu-item-link" href="/gallery"><span>Galereya</span></a>
+                            </li>
+                            <li><a class="menu-item-link" href="/about"><span>Haqqımızda</span></a>
+                            </li>
+                            <li><a class="menu-item-link" href="/order"><span>Sifariş Ver</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- Header Menu End -->
+                </div>
+            </div>
+
         </div>
-        <a href="/order" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Sifariş edin<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
-</nav>
-<!-- Navbar End -->
+    <!-- Header End -->
+
+    <!-- Search Start  -->
+    <div class="search-popup position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center p-6 bg-black bg-opacity-75">
+        <div class="search-popup__form position-relative">
+            <form action="#">
+                <input class="search-popup__field border-0 border-bottom bg-transparent text-white w-100 tra py-3" type="text" placeholder="Search…">
+                <button class="search-popup__icon text-white border-0 bg-transparent position-absolute top-50 end-0 translate-middle-y"><i class="lastudioicon-zoom-1"></i></button>
+            </form>
+        </div>
+        <button class="search-popup__close position-absolute top-0 end-0 m-8 p-3 lh-1 border-0 text-white fs-4"><i class="lastudioicon-e-remove"></i></button>
+    </div>
+    <!-- Search End -->
+
+
+    <!-- offcanvas Menu Start -->
+    <div class="offcanvas offcanvas-end offcanvas-menu bg-secondary" id="offcanvasMenu">
+        <div class="offcanvas-header justify-content-end">
+            <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas"><i class="lastudioicon-e-remove"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="mobile-primary-menu">
+                <li>
+                    <a href="/" class="menu-item-link"><span>Ana Səhifə</span></a>
+                </li>
+                <li class="position-static">
+                    <a class="menu-item-link" href="/category"><span>Kategory</span></a>
+                 
+                </li>
+                <li><a class="menu-item-link" href="/gallery"><span>Galereya</span></a>
+                 
+                </li>
+                <li><a class="menu-item-link" href="/about"><span>Haqqımızda</span></a>
+
+                </li>
+                <li><a class="menu-item-link" href="/order"><span>Sifariş Ver</span></a></li>
+            </ul>
+            <ul class="hotline-wrapper offcanvas-hotline">
+                <li>
+                    <div class="hotline">
+                        <i class="lastudioicon lastudioicon-support248"></i>
+                        <div class="hotline-content">
+                            <span class="hotline-text">Əlaqə</span>
+                            <a class="hotline-link" href="tel:+994557140385">+994 (55) 714-0385</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="hotline">
+                        <i class="lastudioicon lastudioicon-pin-check"></i>
+                        <div class="hotline-content">
+                            <span class="hotline-text">Məkan</span>
+                            <a class="hotline-link" href="https://maps.app.goo.gl/8VRhq1QaqHmKvbAd9">Bakı, Urban kafe</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- offcanvas Menu End -->
