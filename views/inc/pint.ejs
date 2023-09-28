@@ -1,54 +1,132 @@
+<style>
+
+.satilan-urun {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 
+.satilan-urun:hover {
+    transform: scale(1.09); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.satilan-urun__image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.satilan-urun__content {
+    margin-top: 2rem;
+}
+
+.satilan-urun__title a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.baxın-butonu {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #434141;
+    color: #d6c1c1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.baxın-butonu:hover {
+    color: azure;
+    background-color: #cc8242;
+}
+
+
+</style>
 <div class="row-3">
-    
     <div class="col-12 d-flex justify-content-center flex-wrap align-items">
-
-        <div>
-            <a href="/category">
-            <div class="p-10 mx-5 my-5 flex justify-content-center align-items-center" style="width: 300px; text-shadow: 1px 1px 2px #222; height: 300px; background-image: url('https://images.unsplash.com/photo-1631048498692-af6262577031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); background-size: 100% 100%; background-position: center;">
-                <h1 class="text-white"><b>Mətbəx</b></h1>
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/xkl7AsRP1LlotI2NvHoR4cpYmaVwBJNm9jrhE67OPsA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFiL2U3/L2UzLzFiZTdlM2Qx/YWYzOTliOTdmNjlk/YzAzMzc1YmI5ZGY4/LS1pcm9uLXJ1c3Qt/aXJvbi1iYWxjb255/LmpwZw" alt="Qonaq Otağı"></a>
                 </div>
-            </a>
-        </div>
-        <div>
-            <a href="/category">
-            <div class="p-10 mx-5 my-5 flex justify-content-center align-items-center" style="width: 300px; text-shadow: 1px 1px 2px #222; height: 300px; background-image: url('https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80'); background-size: 100% 100%; background-position: center;">
-                <h1 class="text-white"><b>Qonaq Otağı</b></h1>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Dəmir Konstruksiyalar</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
                 </div>
-            </a>
+            </div>
         </div>
-        <div>
-            <a href="/category">
-            <div class="p-10 mx-5 my-5 flex justify-content-center align-items-center" style="width: 300px; text-shadow: 1px 1px 2px #222; height: 300px; background-image: url('https://images.unsplash.com/photo-1618221520382-3d68e64f58ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80'); background-size: 100% 100%; background-position: center;">
-                <h1 class="text-white"><b>Yumşaq</b></h1>
-                 </div>
-            </a>
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/1z0bSv1JXdxSH9SecNdn0eUzZcEgArS-wcinjiwmnuM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vMTk2MzU4/NS85Mzk5L2kvNjAw/L2RlcG9zaXRwaG90/b3NfOTM5OTYxMzgt/c3RvY2stcGhvdG8t/aXJvbi1nYXRlLXdp/dGgtd3JvdWdodC1v/cm5hbWVudC5qcGc" alt="Qonaq Otağı"></a>
+                </div>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Dəmir Qapılar</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="/category">
-            <div class="p-10 mx-5 my-5 flex justify-content-center align-items-center" style="width: 300px; text-shadow: 1px 1px 2px #222; height: 300px; background-image: url('https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80'); background-size: 100% 100%; background-position: center;">
-                <h1 class="text-white"><b>Yataq Otağı</b></h1>
-                 </div>
-            </a>
-        </div>
-        
-        
-        <div>
-            <a href="/category">
-            <div class="p-10 mx-5 my-5 flex justify-content-center align-items-center" style="width: 300px; text-shadow: 1px 1px 2px #222; height: 300px; background-image: url('https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80'); background-size: 100% 100%; background-position: center;">
-                <h1 class="text-white"><b>Hamam Mebeli</b></h1>
-                 </div>
-            </a>
-        </div>
-        <div>
-            <a href="/category"> 
-            <div class="p-10 mx-5 my-5 flex justify-content-center align-items-center" style="width: 300px; text-shadow: 1px 1px 2px #222; height: 300px; background-image: url('https://images.unsplash.com/photo-1621506821957-1b50ab7787a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80'); background-size: 100% 100%; background-position: center;">
-                <h1 class="text-white"><b>Həyət Mebeli</b></h1>
-                 </div>
-            </a>
-        </div>
-        
 
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/AvBuzJDRvtz4_ITfRyz-xhIw3iqTeMhowhK9EYF4Jko/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI1L1N0YXJmaXJl/X1Nwb3J0c19Db21w/bGV4Xy1faW5kb29y/X3NvY2Nlcl8wMS5q/cGc" alt="Qonaq Otağı"></a>
+                </div>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Futbol Meydançaları</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/NpgBP2sRw_iXHzsFwc3ysvSgqSDqXEmnNvNpE6Im328/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bGF0aGFtcG9vbC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMTJjaGFyY29h/bC11bmRlci10cmFj/ay1hdXRvbWF0aWMt/Y292ZXJzLXZpbnls/LWxpbmVkLWhlZGdl/LkpQRw" alt="Qonaq Otağı"></a>
+                </div>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Hovuz Örtükləri</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/Gt33Q7zVJ32zu1BkK5aJWkKAvmCkA763yTCroFK1I8M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhlc3BydWNlLmNv/bS90aG1iLy1mUFV1/cWFVNHVPZmVhTWU3/NFNMUWFFaC1ITT0v/MTUwMHgwL2ZpbHRl/cnM6bm9fdXBzY2Fs/ZSgpOm1heF9ieXRl/cygxNTAwMDApOnN0/cmlwX2ljYygpL2x1/Y2t5cGxvdDIzcGVy/Z29sYS00OWFhNmNi/NjgzMGM0NWEwYTEw/NmQ2OWFiZDRlNWFi/My5qcGc" alt="Qonaq Otağı"></a>
+                </div>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Perqolalar</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/5MSKAapqlG9O-Btq6G3joD5ujjqYN8zifdgrg5dYarI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzI1MzAyNDg2L3Iv/aWwvYTBhOWM2LzQ4/ODI2ODUzNjEvaWxf/NjAweDYwMC40ODgy/Njg1MzYxX2w0NDYu/anBn" alt="Qonaq Otağı"></a>
+                </div>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Reklam Lövhələri</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" style="width: 100%; max-width: 500px;">
+            <div class="satilan-urun satilan-urun border text-center mx-5 my-5 custom-effect">
+                <div class="satilan-urun__image">
+                    <a href="/category"><img width="350" height="350" src="https://imgs.search.brave.com/AvBuzJDRvtz4_ITfRyz-xhIw3iqTeMhowhK9EYF4Jko/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI1L1N0YXJmaXJl/X1Nwb3J0c19Db21w/bGV4Xy1faW5kb29y/X3NvY2Nlcl8wMS5q/cGc" alt="Qonaq Otağı"></a>
+                </div>
+                <div class="satilan-urun__content" style="margin-top: 2rem;">
+                    <h5 class="satilan-urun__title"><a href="/category">Futbol Meydançaları</a></h5>
+                    <a href="/category" class="baxın-butonu">BAXIN</a>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
+</div>
